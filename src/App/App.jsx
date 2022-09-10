@@ -1,10 +1,10 @@
 import React from 'react';
-import Main from '../5_todos/Main';
+import Parent from '../5_todos/Parent';
 
 function App() {
   return (
     <div className="App container pt-5">
-      <Main />
+      <Parent />
     </div>
   );
 }
