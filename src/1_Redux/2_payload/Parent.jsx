@@ -1,9 +1,11 @@
 import React from 'react';
+// Redux
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
-import Component from './Component';
+// Components
+import Child from './Child';
 
-function Main() {
+function Parent() {
   const defaultState = {
     counter: 0,
   };
@@ -21,9 +23,9 @@ function Main() {
 
   return (
     <Provider store={store}>
-      <Component />
+      <Child />
     </Provider>
   );
 }
 
-export default Main;
+export default Parent;

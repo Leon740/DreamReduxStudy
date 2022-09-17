@@ -1,6 +1,8 @@
 import React from 'react';
+// Redux
 import { Provider } from 'react-redux';
 import store from './store';
+// Components
 import Budget from './Budget';
 import Car from './Car';
 

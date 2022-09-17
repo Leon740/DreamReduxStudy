@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
 import React, { useState } from 'react';
-// redux
+// Redux
 import { useSelector, useDispatch } from 'react-redux';
-// bootstrap
+// Bootstrap
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 

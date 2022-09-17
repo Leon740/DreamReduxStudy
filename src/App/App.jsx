@@ -1,5 +1,5 @@
 import React from 'react';
-import Parent from '../5_todos/Parent';
+import Parent from '../2_Redux_Toolkit/3_logging/Parent';
 
 function App() {
   return (

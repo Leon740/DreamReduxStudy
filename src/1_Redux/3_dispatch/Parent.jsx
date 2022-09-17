@@ -1,6 +1,8 @@
 import React from 'react';
+// Redux
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
+// Components
 import Car from './Car';
 
 function Main() {

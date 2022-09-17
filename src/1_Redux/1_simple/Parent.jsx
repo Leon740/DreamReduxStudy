@@ -1,9 +1,11 @@
 import React from 'react';
+// Redux
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
-import Component from './Component';
+// Components
+import Child from './Child';
 
-function Main() {
+function Parent() {
   // Steps:
   // 1) create default state
   // 2) create reducer function = modify state
@@ -23,11 +25,19 @@ function Main() {
 
   const store = createStore(reducer);
 
+  // get state
+  console.log(store.getState());
+
+  // subscribe to state updates
+  store.subscribe(() => {
+    console.log(store.getState());
+  });
+
   return (
     <Provider store={store}>
-      <Component />
+      <Child />
     </Provider>
   );
 }
 
-export default Main;
+export default Parent;

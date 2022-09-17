@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
+// Redux
 import { useDispatch, useSelector } from 'react-redux';
 
-function Component() {
+function Child() {
   const counter = useSelector((state) => state.counter);
   const dispatch = useDispatch();
   const [inputValue, setInputValue] = useState('');
@@ -22,4 +23,4 @@ function Component() {
   );
 }
 
-export default Component;
+export default Child;

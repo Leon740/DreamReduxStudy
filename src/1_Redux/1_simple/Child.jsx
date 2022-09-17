@@ -1,7 +1,8 @@
 import React from 'react';
+// Redux
 import { useDispatch, useSelector } from 'react-redux';
 
-function Component() {
+function Child() {
   // Steps
   // 1) useDispatch to handle action
   // 2) useSelector to get state
@@ -21,4 +22,4 @@ function Component() {
   );
 }
 
-export default Component;
+export default Child;
