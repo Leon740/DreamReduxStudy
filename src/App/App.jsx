@@ -1,5 +1,5 @@
 import React from 'react';
-import Parent from '../2_Redux_Toolkit/3_logging/Parent';
+import Parent from '../2_Redux_Toolkit/4_createAsyncThunk/Parent';
 
 function App() {
   return (

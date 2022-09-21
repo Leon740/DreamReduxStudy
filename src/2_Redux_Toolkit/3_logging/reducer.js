@@ -8,7 +8,7 @@ const counterSlice = createSlice({
   reducers: {
     increment(state) {
       console.log('before', current(state));
-      // eslint-disable-next-line no-plusplus, no-param-reassign
+      // eslint-disable-next-line no-param-reassign
       state.counter += 1;
       console.log('after', current(state));
     },

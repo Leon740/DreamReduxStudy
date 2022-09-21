@@ -18,6 +18,7 @@
         "react"
     ],
     "rules": {
-        "max-len": "warn"
+        "max-len": "warn",
+        "no-console": "off"
     }
 }
