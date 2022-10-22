@@ -1,3 +1,17 @@
+# Title
+
+React App build to train Redux & Redux-Toolkit concepts.
+
+# Motivation
+
+Learn Redux and it's concepts.
+
+# Stack
+
+- React
+- Redux
+- Redux-Toolkit
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
